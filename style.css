@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #667eea;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a6fd6;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #667eea;
+    text-decoration: none;
+}
+
+.error {
+    background: #ffe0e0;
+    color: #d00;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.notes-container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.note-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+}
+
+.note-card h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.note-card p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.note-card small {
+    color: #999;
+}
+
+.note-actions {
+    margin-top: 10px;
+}
+
+.note-actions a {
+    display: inline;
+    margin-right: 10px;
+    color: #667eea;
+}
+
+.note-actions a.delete {
+    color: #e74c3c;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.btn-add {
+    background: #667eea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-logout {
+    color: #e74c3c !important;
+}
